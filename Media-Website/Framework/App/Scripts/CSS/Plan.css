@@ -1,0 +1,49 @@
+.SelectArea{
+	width: 500px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    margin: auto;
+    margin-top: 118px;
+    border: 2px solid navajowhite;
+}
+.SelectArea > section{
+    display: flex;
+    margin-left: 34px;
+}
+.SelectArea > section > button{
+    text-align: center;
+    border: 2px solid gold;
+    border-radius: 16px;
+    width: 100px;
+    height: 36px;
+    margin: auto;
+    margin-left: 2px;
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.SelectArea > section > .Selected{
+	background-color: whitesmoke;
+}
+.SelectArea > .SettingsButtonArea{
+    margin-left: 36px;
+}
+.SelectArea > section .ResetButton{
+    background-color: lightcoral;
+}
+.SelectArea > section .AddButton{
+    background-color: greenyellow;
+}
+.SettingsButtonArea input{
+    border: 2px solid firebrick;
+    background-color: lightblue;
+    color: darkgoldenrod;
+    border-radius: 16px;
+    height: 36px;
+    width: 204px;
+    margin: auto;
+    margin-left: 2px;
+    margin-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

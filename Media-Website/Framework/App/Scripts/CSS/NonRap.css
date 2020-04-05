@@ -1,0 +1,15 @@
+@import url("http://127.0.0.1/Media-Website/Framework/App/Scripts/CSS/MediaBox.css");
+.NonRapBox{
+    height: 436px;
+    width: 52.2em;
+    background-color: lightgrey;
+    margin: auto;
+    margin-top: 10px;
+}
+.NonRapBox > p{
+    text-align: center;
+    color: goldenrod;
+}
+.NonRapBox > section{
+    display: flex;
+}

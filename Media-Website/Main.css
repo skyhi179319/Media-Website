@@ -1,0 +1,20 @@
+.AboutBox{
+	margin: auto;
+	width: 200px;
+	height: 108px;
+	background-color: white;
+}
+.AboutBox > p{
+	text-align: center;
+	font-size: 21px;
+}
+.LicenseBox{
+	margin: auto;
+	width: 200px;
+	height: 108px;
+	background-color: white;
+}
+.LicenseBox > p{
+	text-align: center;
+	font-size: 16px;
+}

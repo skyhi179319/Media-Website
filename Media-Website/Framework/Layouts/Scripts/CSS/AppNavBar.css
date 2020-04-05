@@ -1,0 +1,24 @@
+.AppNavBar{
+  background-color: greenyellow;
+  color: red;
+  overflow: hidden;
+  width: max-content;
+}
+.AppNavBar a{
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.AppNavBar a:hover{
+  background-color: #ddd;
+  color: black;
+}
+.ComponentsLinks{
+    background-color: darkseagreen;
+}
+.Components{
+    display:flex;
+}

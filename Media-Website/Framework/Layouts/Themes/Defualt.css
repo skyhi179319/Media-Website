@@ -1,0 +1,18 @@
+body{
+	background-color: lightgreen;
+}
+section{
+	float: left;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background-image: linear-gradient(lawngreen, limegreen);
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(limegreen, lawngreen);
+  border-radius: 10px;
+}

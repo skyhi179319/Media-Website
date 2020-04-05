@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$("#MainAppBox").css("height","400px");
+	$("#MainAppBox").css("width","842px");
+	$("#MainAppBox").css("overflow","hidden");
+	$("#MainAppBox").css("overflow-y","scroll");
+	$("#MainAppBox").css("margin","auto");
+	$("#MainAppBox").css("margin-top","10px");
+	$("#MainAppBox").css("background-color","gold");
+	$("#Featured").load("http://127.0.0.1/Media-Website/Framework/App/Scripts/HTML/Featured.html");
+	$("#MostUsed").load("http://127.0.0.1/Media-Website/Framework/App/Scripts/HTML/MostUsed.html");
+	$("#NonRap").load("http://127.0.0.1/Media-Website/Framework/App/Scripts/HTML/NonRap.html");
+});

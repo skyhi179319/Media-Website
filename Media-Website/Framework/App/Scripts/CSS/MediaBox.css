@@ -1,0 +1,23 @@
+/*  Main Elements */
+.MediaBox{
+	margin: auto;
+    margin-top: 1em;
+    height: 108px;
+    width: 264px;
+    background-color: whitesmoke;
+    border: 2px solid red;
+    margin-left: 5px;
+}
+.MediaBox > audio{
+    width: 188px;
+    margin-left: 44px;
+}
+.MediaBox > p{
+    text-align: center;
+    color: gold;
+}
+/* Hover */
+.MediaBox > audio:hover{
+    width: 261px;
+    margin-left: 0px;
+}

@@ -1,0 +1,37 @@
+$(document).ready(function(){
+	$("#Featured").load("http://127.0.0.1/Media-Website/Framework/App/Scripts/HTML/Featured.html");
+	$("#MostUsed").load("http://127.0.0.1/Media-Website/Framework/App/Scripts/HTML/MostUsed.html");
+	$("#NonRap").load("http://127.0.0.1/Media-Website/Framework/App/Scripts/HTML/NonRap.html");
+	$("#ImportPlan").load("http://127.0.0.1/Media-Website/Framework/App/Scripts/HTML/Plan.html");
+	$("#Featured").hide();
+	$("#MostUsed").hide();
+	$("#NonRap").hide();
+	$("#ImportPlan").hide();
+	$("#FeaturedOnButton").click(function(){
+		$("#Featured").show();
+	});
+	$("#FeaturedOffButton").click(function(){
+		$("#Featured").hide();
+	});
+	$("#MostUsedOnButton").click(function(){
+		$("#MostUsed").show();
+	});
+	$("#MostUsedOffButton").click(function(){
+		$("#MostUsed").hide();
+	});
+	$("#NonRapOnButton").click(function(){
+		$("#NonRap").show();
+	});
+	$("#NonRapOffButton").click(function(){
+		$("#NonRap").hide();
+	});
+	$("#PlanOnButton").click(function(){
+		$("#ImportPlan").show();
+	});
+	$("#PlanOffButton").click(function(){
+		$("#ImportPlan").hide();
+	});
+	$("button").click(function(){
+		$("#myCanvas").remove();
+	});
+});

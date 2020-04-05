@@ -1,0 +1,16 @@
+.MediaSampleBox{
+	margin: auto;
+    margin-top: 1em;
+    height: 108px;
+    width: 264px;
+    background-color: whitesmoke;
+    border: 2px solid red;
+}
+.MediaSampleBox > audio{
+    width: 188px;
+    margin-left: 44px;
+}
+.MediaSampleBox > p{
+    text-align: center;
+    color: gold;
+}

@@ -1,0 +1,73 @@
+.Program{
+	margin: auto;
+	margin-top: 5px;
+	width: 966px;
+	height: 500px;
+	background-color: white;
+    display: flex;
+}
+.Program > .SidePanel{
+	width: 100px;
+    height: 400px;
+    background-color: lightgrey;
+    float: left;
+    margin-top: 42px;
+    margin-left: 4px;
+    border: 2px solid goldenrod;
+}
+.Program > .SidePanel > .OnArea {
+    width: 100px;
+    height: 195px;
+    background-color: lightgreen;
+}
+.Program > .SidePanel > .Divider{
+    width: 100px;
+    height: 10px;
+    background-color: darkgreen;
+}
+.Program > .SidePanel > .OffArea {
+    width: 100px;
+    height: 195px;
+    background-color: lightcoral;
+}
+.Program > .SidePanel > .OnArea > button{
+	width: 90px;
+    margin-left: 5px;
+    margin-top: 8px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    border-radius: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.Program > .SidePanel > .OffArea > button{
+	width: 90px;
+    margin-left: 5px;
+    margin-top: 8px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    border-radius: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.Program > .SidePanel > .OnArea > button:hover{
+	border-color: green;
+}
+.Program > .SidePanel > .OffArea > button:hover{
+	border-color: firebrick;
+}
+.Program > .MainArea{
+    width: 836px;
+    height: 466px;
+    background-color: gold;
+    margin-left: 14px;
+    margin-top: 14px;
+    border: 2px solid goldenrod;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#myCanvas{
+    border: 1px solid #d3d3d3;
+    margin-left: 18.5em;
+    margin-top: 7em;
+}

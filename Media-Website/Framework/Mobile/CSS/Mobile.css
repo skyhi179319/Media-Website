@@ -1,0 +1,15 @@
+@media screen and (max-width: 786px) {
+    .MediaBox{
+        width: 132px;
+        margin-top: .5em;
+        margin-left: 2.5px;
+    }
+    .MediaBox > audio{
+        width: 120px;
+        height: 17px;
+        margin-left: 5px;
+    }
+    #MainAppBox{
+        display: none;
+	}
+}

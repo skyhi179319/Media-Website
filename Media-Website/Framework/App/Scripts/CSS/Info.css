@@ -1,0 +1,18 @@
+.PlayerText{
+	margin: auto;
+    margin-top: 5px;
+    height: 30px;
+    width: 422px;
+    background-color: chartreuse;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+marquee{
+	background-color: lightblue;
+    border: 2px solid gold;
+    width: 400px;
+    margin-top: 4px;
+    margin-left: 9px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}

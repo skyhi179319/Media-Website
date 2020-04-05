@@ -1,0 +1,13 @@
+.PageHeader{
+	height: 100px;
+	width: 400px;
+	margin: auto;
+	background-color: black;
+	margin-top: -1em;
+}
+.PageHeader > p{
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	padding-top: 1.5em;
+}
